@@ -46,7 +46,7 @@ generation | 1-8
 filename | filename.txt
 birthday | 341222200101011234,20010101
 QQ | 10086,1008611
-domain | www.knownsec.com
+domain | xl7dev.github.io
 email | admin@gmail.com
 mobile | 13838438438
 random | 8
@@ -54,15 +54,15 @@ random | 8
 ### 企业公司
 1.从文件名中加载多个用户名
 ```
-python bypass.py -f username.txt -d www.knownsec.com
+python bypass.py -f username.txt -d xl7dev.github.io
 ```
 2.自动生成Top500用户名
 
 ```
-python bypass.py -g 1 -d www.knownsec.com
+python bypass.py -g 1 -d xl7dev.github.io
 ```
 ### 个人
 1.根据个人信息生成
 ```
-bypass.py -f username.txt -b 20010101 -q 10086 -d www.knownsec.com -m 13838438438
+bypass.py -f username.txt -b 20010101 -q 10086 -d xl7dev.github.io -m 13838438438
 ```
